@@ -153,9 +153,9 @@ body {
     }
     }
 #texta{
+  margin: 0 auto;
   text-align: left;
   width: 68%;
-  margin: none;
 }
 #regan{
   font-size: 3em !important;
@@ -3963,16 +3963,22 @@ input[type="radio"] {
 .paragraphOneAbout{
   text-indent: 40px;
   padding-left:30px;
+  color: black !important;
   
+}
+body p{
+  display: flex;
+  text-align: center;
 }
 .paragraphTwoAbout{
   text-indent: 40px;
   padding-bottom: 50px;
   padding-left:30px;
+  color: black !important;
  
 }
 .mainBackgroundImageAbout{
-  background-image: url(../images/about/bg-about.jpg);
+  background-image: url(../images/bg/mtnbg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -8842,7 +8848,7 @@ button.rn-btn {
 a.rn-btn,
 button.rn-btn {
   border-radius: 6px;
-  background: linear-gradient(145deg, #1e2024, #23272b);
+  background: linear-gradient(145deg, #ed98ca, #b873b8);
   box-shadow: var(--shadow-1);
   transition: var(--transition);
   position: relative;
@@ -8860,7 +8866,7 @@ button.rn-btn {
     border-radius: 6px;
     top: 0;
     left: 0;
-    background: linear-gradient(to right bottom, #212428, #16181c);
+    background: linear-gradient(to right bottom, #ed98ca, #b873b8);
     opacity: 0;
     z-index: -1; }
   a.rn-btn:hover,
